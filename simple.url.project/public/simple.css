@@ -10,46 +10,48 @@ body {
 .h1 {text-align: center;}
 .main {margin-top: 10px;}
 
-li { margin-bottom: 2em;}
+li { margin-bottom: 1em;}
 
-a {color: #5C7C98;text-size:10px;}
+a {color:#737373; text-size:10px; padding:1em;}
 
-fieldset {background-color: #E6E6E4; padding: 10px 10px 10px 10px;}
+fieldset {background-color: #E6E6E4; padding: 10px 10px 10px 10px; text-color: #FFFFFF;}
 
 form {
   margin: 0px auto;
   padding: 50px;
-  max-width: 800px;
+  max-width: 900px;
 }
 
 label {
-  margin-right: 20px;
+  margin-left: 20px;
+  text-color: #FFFFFF;
 }
 legend{
     font-family: helvetica;
     font-size: 22px;
-    text-color:#646161;
+    color: #646161;
     padding:40px 40px 40px 40px;
-
 }
+
 input {
   padding: 15px;
-  margin: 20px
+  margin: 20px;
+
 }
 
 input[type='text'] {
-  width: 260px;
+  width: 300px;
   text-align: center;
+  padding: 10px;
 
 
 .footer {
+    float: left;
     padding: 30px;
     font-color: #000000;
      line-height: 3.0em;x;
-     border: 1px;
-     border-color: #646161;
-     padding-left: 10px;
-
+     padding-left: 20px;
+}
 
 
 
